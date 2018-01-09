@@ -28,7 +28,7 @@ unzip master.zip
 ```
 mysql -u <username> -p<PlainPassword> <databasename> < <filename.sql>
 ```
-> **Note:** modify your .env file for more specific database requirements. 
+> **Note:** modify your .env file (copy it from .env.examle) for more specific database requirements. Without this file you will get a 'Whoops, looks like something went wrong.' message.
 
    3. Run a 'composer install' to include dependencies at the root of the project folder.
 ```
