@@ -39,8 +39,9 @@ composer install
 ```
 127.0.0.1   notes.demo.dev
 ```
-   5. Modify the site directive with the following followed by an apache2 service restart. Use the appropriate folder paths based on where you unzipped the downloaded zip file.
+   5. Modify the site directive with the following followed by an apache2 service restart. Use the appropriate folder paths based on where you unzipped the downloaded zip file (or pulled from github).
 ```
+# Ensure mod_rewrite is active and php7.1+ is installed
 DocumentRoot /var/www/html/notes.demo.dev/public
 ServerName notes.demo.dev
 
